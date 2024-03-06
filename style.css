@@ -1,0 +1,149 @@
+h1{
+	border: 1px solid black;
+	color: purple;
+	background-color: green;
+	padding: 10px;
+	margin: 0px;
+	font-family: "Comic Sans Ms"
+}
+body{
+	margin:0;
+	background-color: green;
+}
+
+header{
+	background-color: green;
+	padding: 20px;
+	text-align:center;
+	font-family: "Comic Sans Ms",Arial
+}
+nav{
+	overflow: hidden;
+	background-color: green;
+}
+nav a{
+	float:left;
+	color:blue;
+	padding:14px 16px;
+	text-decoration: none
+	}
+	nav a:hover{
+		background-color: black;
+	}
+	.column{
+		float:left;
+		padding:10px;
+	}
+	.column.side{
+		width:20%;
+	}
+	.column.middle{
+		width:50%;
+	}
+	footer{
+		clear: both;
+		background-color: pink;
+	padding: 10px;
+	text-align:center;
+	 color:black;
+	 border: 1px solid black;
+	}
+
+	@media screen and(max-width: 617px)
+	{
+		.column.side, .column.middle
+		{
+			width:100%;
+		}
+	}
+	div.gallery{
+		margin:5px;
+		border:5px solid black;
+		float:left;
+		width:200px;
+	}
+
+	div.gallery:hover{
+		border:5px solid red;
+	}
+
+	div.gallery img{
+		width:100%;
+		height:auto;
+	}
+	input[type=text],select,textarea{
+		width:100%;
+		padding:12px;
+		border: 1px solid #ccc;
+		margin-top: 6px;
+		margin-bottom: 16px;
+		resize: vertical;
+	}
+	input[type=submit]{
+		background-color:green;
+		color: yellow;
+		padding: 12px 20px;
+		cursor: pointer;
+		border:none;
+		margin: 2px; 
+	}
+
+.About_me{
+	background-color: pink;
+	padding: 40px;
+	}
+
+footer{
+	text-align: center;
+	padding: 20px;
+}
+
+.form{
+	background-color: red;
+}
+.index{
+	text-align: center;
+}
+	
+.index {
+  opacity: 0; /* Set initial opacity to 0 */
+  animation: fadeIn 2.5s ease-in-out forwards; /* Animation name, duration, timing function, and fill mode */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+ 
+.gallery{
+	opacity: 0; /* Set initial opacity to 0 */
+  animation: fadeIn 2.5s ease-in-out forwards; /* Animation name, duration, timing function, and fill mode */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+
+}
+.About_me,header{
+	opacity: 0; /* Set initial opacity to 0 */
+  animation: fadeIn 2.5s ease-in-out forwards; /* Animation name, duration, timing function, and fill mode */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+
+}
